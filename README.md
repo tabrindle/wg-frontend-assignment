@@ -17,6 +17,8 @@ We work with many utilities, but as you may or may not know, utilities frequentl
 
 When you're done, commit this work to a GitHub repo! Ensure the github repository contains your complete work including your completed README.md file and deliver a link to us via email. When we receive your link, we will provide you with github usernames to invite to your repository.
 
+![](public/mockup.png)
+
 ## Assessment Criteria
 
 What we’re looking for in your code:
