@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
           </li>
 
           <li>
-            When you are ready, get started here: <a href="/select-programs">Select Programs</a> 
+            When you are ready, get started here: <Link href="/select-programs">Select Programs</Link> 
           </li>
         </ul>
       </main>
