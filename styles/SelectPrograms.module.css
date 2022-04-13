@@ -1,3 +1,12 @@
-.container {
-  margin: 1rem;
-}
+.sp__container {}
+.sp__header {}
+.sp__card {}
+.sp__card_header {}
+.sp__card_aside {}
+.sp__checkbox {}
+.sp__card_description {}
+.sp__card_perks_header {}
+.sp__card_perks_content {}
+.sp__card_footer{}
+.sp__card_footer_text{}
+.sp__card_terms_text{}
