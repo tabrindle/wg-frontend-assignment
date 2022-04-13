@@ -1,12 +1,51 @@
-.sp__container {}
-.sp__header {}
-.sp__card {}
-.sp__card_header {}
-.sp__card_aside {}
-.sp__checkbox {}
-.sp__card_description {}
-.sp__card_perks_header {}
-.sp__card_perks_content {}
-.sp__card_footer{}
-.sp__card_footer_text{}
-.sp__card_terms_text{}
+.sp__container {
+  margin: auto;
+  width: 40rem;
+}
+
+.sp__header {
+  font-size: 24px;
+}
+
+.sp__card {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.sp__card_header {
+  margin-top: 0;
+}
+
+.sp__card_aside {
+  text-align: right;
+}
+
+.sp__card input[type="checkbox"] {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.sp__card_description {
+  font-size: 15px;
+}
+
+.sp__card_perks_header {
+  font-size: 17px;
+}
+
+.sp__card_perks_content {
+  font-size: 16px;
+}
+
+.sp__card_footer {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.sp__card_footer_text {
+  font-size: 15px;
+}
+
+.sp__card_terms_text {
+  font-size: 14px;
+}
