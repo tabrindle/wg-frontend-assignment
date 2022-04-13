@@ -49,3 +49,12 @@
 .sp__card_terms_text {
   font-size: 14px;
 }
+
+.sp_terms {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sp_button {
+  font-size: 18px;
+}

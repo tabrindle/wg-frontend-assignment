@@ -3,6 +3,7 @@ import styles from "../styles/SelectPrograms.module.css";
 
 // TODO: Fetch data from /api/programs, map data fields to markup
 // TODO: Style component to match mockup, then add some design flare
+// TODO: Track programs that are selected and update terms of service list and button text
 // TODO: Auto select/deselect other programs based on exclusion field on checkbox change
 // TODO: Submit selected program IDs to /api/programs
 
@@ -38,6 +39,8 @@ const SelectPrograms: NextPage = (props) => {
               <p className={styles.sp__card_terms_text}>program.termsText</p>
           </label>
         </div>
+        <p className={styles.sp_terms}>By selecting, you are agreeing to the following terms of service: </p>
+        <button type="submit" className={styles.sp_button} disabled={false}>Enroll and Complete</button>
       </form>
     </div>
   );
